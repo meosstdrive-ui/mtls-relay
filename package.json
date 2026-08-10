@@ -1,1 +1,15 @@
-
+{
+  "name": "mtls-relay",
+  "version": "1.0.0",
+  "description": "Relay mTLS para webservices municipais NFS-e",
+  "main": "mtls-relay.js",
+  "scripts": {
+    "start": "node mtls-relay.js"
+  },
+  "dependencies": {
+    "node-forge": "^1.3.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
